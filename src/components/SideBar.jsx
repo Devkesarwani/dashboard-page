@@ -8,7 +8,7 @@ import { BsBank } from "react-icons/bs";
 
 const SideBar = () => {
   return (
-    <div className="w-80 h-96 relative">
+    <div className="w-80 h-96 absolute left-0">
       <div className="flex items-center mb-0 pl-8 pt-7">
         <img
           className="w-7 h-7"
@@ -27,32 +27,32 @@ const SideBar = () => {
 
         <div className="w-8 h-8 left-[12px] top-[8px] absolute bg-white rounded-full" />
       </div>
-
-      <div className="left-[62px] top-[137px] absolute opacity-50 text-black text-lg font-medium font-['Lato']">
+    
+      <div className="left-[62px] top-[137px] absolute opacity-50 text-black text-lg font-medium ">
         Dashboard
       </div>
-      <div className="left-[62px] top-[195px] absolute opacity-50 text-black text-base font-medium font-['Lato']">
+      <div className="left-[62px] top-[195px] absolute opacity-50 text-black text-base font-medium ">
         Bullion Operations
       </div>
-      <div className="left-[62px] top-[255px] absolute opacity-50 text-black text-base font-medium font-['Lato']">
+      <div className="left-[62px] top-[255px] absolute opacity-50 text-black text-base font-medium ">
         Transactions
       </div>
-      <div className="left-[62px] top-[308px] absolute opacity-50 text-black text-base font-medium font-['Lato']">
+      <div className="left-[62px] top-[308px] absolute opacity-50 text-black text-base font-medium ">
         Your Network
       </div>
-      <div className="left-[62px] top-[365px] absolute text-white text-base font-black font-['Lato']">
+      <div className="left-[62px] top-[365px] absolute text-white text-base font-black ">
         Consumers
       </div>
-      <div className="left-[62px] top-[427px] absolute opacity-50 text-black text-base font-medium font-['Lato']">
+      <div className="left-[62px] top-[427px] absolute opacity-50 text-black text-base font-medium ">
         Other Operations
       </div>
-      <div className="left-[62px] top-[489px] absolute opacity-50 text-black text-base font-medium font-['Lato']">
+      <div className="left-[62px] top-[489px] absolute opacity-50 text-black text-base font-medium ">
         Manage Bank Accounts
       </div>
-      <div className="left-[62px] top-[545px] absolute opacity-50 text-black text-base font-medium font-['Lato']">
+      <div className="left-[62px] top-[545px] absolute opacity-50 text-black text-base font-medium ">
         FAQ
       </div>
-      <div className="left-[62px] top-[601px] absolute opacity-50 text-black text-base font-medium font-['Lato']">
+      <div className="left-[62px] top-[601px] absolute opacity-50 text-black text-base font-medium ">
         Customize Dashboard
       </div>
       <div className="w-px h-96 left-[268px] top-0 absolute origin-top-left rotate-180 opacity-50 bg-zinc-200 backdrop-blur-xl" />
@@ -64,9 +64,9 @@ const SideBar = () => {
         <div>
           <GrHomeRounded className="w-6 h-6 left-[2.70px] top-0 absolute" />
         </div>
-        <div className="w-6 h-5 left-[2.70px] top-[60.55px] absolute">
+        <div className="w-6 h-5 left-[2.70px] top-[50px] absolute">
           <div>
-            <RxCardStack className="w-5 h-2 left-[0.60px] top-[12.45px] absolute" />
+            <RxCardStack className="w-5 h-5 left-[0.60px] top-[12.45px] absolute" />
           </div>
         </div>
         <div>
@@ -75,13 +75,13 @@ const SideBar = () => {
         <div>
           <img
             src="https://cdn-icons-png.flaticon.com/128/7041/7041719.png"
-            className="w-5 h-5 left-0 top-[228.73px] absolute"
+            className="w-5 h-5 left-[2px] top-[228.73px] absolute"
             alt="consumer logo"
           />
         </div>
         <div className="w-6 h-6 left-[2.70px] top-[291.39px] absolute">
           <div className="w-6 h-5 left-0 top-[6.05px] absolute">
-            <div className="w-5 h-2 left-[0.71px] top-[10.66px] absolute bg-gray-300 rounded-bl-sm rounded-br-sm" />
+            <div className="w-5 h-2 left-[0.71px] top-[10.66px] absolute rounded-bl-sm rounded-br-sm" />
             <div className="w-6 h-5 left-0 top-0 absolute rounded-sm border-2 border-zinc-700" />
           </div>
         </div>
@@ -93,7 +93,7 @@ const SideBar = () => {
             <AiOutlineSetting className="w-6 h-6 left-0 top-0 absolute" />
           </div>
         </div>
-        <div className="w-6 h-4 left-[2.70px] top-[412.31px] absolute">
+        <div className="w-6 h-4 left-[2.70px] top-[405px] absolute">
           <div>
             <FaQuestion className="w-4 h-5 left-[5.42px] top-[6.79px] absolute rounded-sm" />
           </div>
@@ -130,38 +130,38 @@ const SideBar = () => {
                   <div className="w-44 h-16 left-0 top-0 absolute rounded-lg" />
                 </div>
               </div>
-              <div className="left-0 top-0 absolute opacity-70 text-black text-base font-medium font-['Lato']">
+              <div className="left-0 top-0 absolute opacity-70 text-black text-base font-medium ">
                 Your Stock
               </div>
               <div className="w-40 h-8 left-[38px] top-[59px] absolute">
                 <div className="left-0 top-0 absolute">
-                  <span className="text-zinc-700 text-base font-normal font-['Lato'] leading-tight">
+                  <span className="text-zinc-700 text-base font-normal  leading-tight">
                     TruCoin{" "}
                   </span>
-                  <span className="text-orange-500 text-base font-medium font-['Lato'] leading-tight">
+                  <span className="text-orange-500 text-base font-medium  leading-tight">
                     Gold
                   </span>
                 </div>
-                <div className="left-[111px] top-[8px] absolute text-zinc-700 text-base font-semibold font-['Lato'] leading-tight">
-                  7.3k gm
+                <div className="left-[111px] top-[8px] absolute text-zinc-700 text-base font-semibold  leading-tight">
+                  7.3k&nbsp;gm
                 </div>
-                <div className="left-[2px] top-[19px] absolute text-lime-600 text-xs font-medium font-['Lato'] leading-none">
+                <div className="left-[2px] top-[21px] absolute text-lime-600 text-xs font-medium  leading-none">
                   $6.18(+1.82%)
                 </div>
               </div>
               <div className="w-40 h-8 left-[38px] top-[104px] absolute">
                 <div className="left-0 top-0 absolute">
-                  <span className="text-zinc-700 text-base font-normal font-['Lato'] leading-tight">
+                  <span className="text-zinc-700 text-base font-normal  leading-tight">
                     TruCoin{" "}
                   </span>
-                  <span className="text-orange-500 text-base font-medium font-['Lato'] leading-tight">
+                  <span className="text-orange-500 text-base font-medium  leading-tight">
                     Silver
                   </span>
                 </div>
-                <div className="left-[111px] top-[8px] absolute text-zinc-700 text-base font-semibold font-['Lato'] leading-tight">
-                  8.3k gm
+                <div className="left-[111px] top-[8px] absolute text-zinc-700 text-base font-semibold  leading-tight">
+                  8.3k&nbsp;gm
                 </div>
-                <div className="left-[2px] top-[19px] absolute text-lime-600 text-xs font-medium font-['Lato'] leading-none">
+                <div className="left-[2px] top-[21px] absolute text-lime-600 text-xs font-medium  leading-none">
                   $6.18(+1.82%)
                 </div>
               </div>

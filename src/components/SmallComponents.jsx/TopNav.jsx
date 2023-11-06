@@ -1,15 +1,15 @@
 import React from "react";
-import SearchBar from "./../SearchBar";
 import { TbMoneybag } from "react-icons/tb";
 import { GiWallet } from "react-icons/gi";
 import { PiFolderUserFill } from "react-icons/pi";
 import { IoIosNotificationsOutline } from "react-icons/io";
+import TopSearchBar from "./TopSearchBar";
 
 const TopNav = () => {
   return (
     <>
       <div className="w-96 h-20 relative">
-        <SearchBar />
+        <TopSearchBar />
         <div className="w-40 left-[755px] top-[26px] absolute">
           <div className="w-28 h-7 left-[43px] top-0 absolute">
             <div className="w-8 h-8 relative flex-col justify-start items-start inline-flex">

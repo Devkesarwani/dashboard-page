@@ -1,15 +1,14 @@
 import React from "react";
 import TableComponent from "./components/Table";
-// import SideBar from "./components/SideBar";
+import SideBar from "./components/SideBar";
 
 function App() {
   return (
     <>
-    <TableComponent />
-      {/* <DashboardComponent />
-      <div style={{paddingLeft:"300px"}}>
+      <SideBar />
+      <div className="flex" style={{ paddingLeft: "280px" }}>
         <TableComponent />
-      </div> */}
+      </div>
     </>
   );
 }
